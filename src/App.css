@@ -1,9 +1,27 @@
 /* Add styling for your page here */
 
-.App {
-
+.container-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
-.BakeryItem {
-  
+.bakery-item-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+}
+.bakery-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cart-div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+h1 {
+    margin-left: 15px;
 }

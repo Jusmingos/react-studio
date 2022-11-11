@@ -1,0 +1,39 @@
+.bakery-item-box {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    width: 450px;
+    height: 470px;
+    background-color: antiquewhite;
+    position: relative;
+    margin: 30px;
+    /* margin-left: 30px; */
+}
+
+img {
+    width: 450px;
+    height: 270px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-button {
+    background-color: #CBC3E3;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.add-button:hover {
+    background-color: lightblue;
+}
